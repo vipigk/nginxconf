@@ -43,6 +43,7 @@ FLUSH PRIVILEGES;
 EXIT;
 ----------------------------------------------------------
 cd /tmp && wget https://download.nextcloud.com/server/releases/nextcloud-15.0.5.zip
+apt install zip unzip
 unzip nextcloud-15.0.5.zip
 sudo mv nextcloud /var/www/html/nextcloud/
 ---------------------------------------------------------
